@@ -1,12 +1,11 @@
+# 项目完整视频
+  https://www.bilibili.com/video/BV1YK4y1b7pF?p=262
 # 谷粒商城简介
 
 ### 前言
 
-gulimall` 项目致力于打造一个完整的电商系统，采用现阶段流行技术来实现，采用前后端分离继续编写。
+gulimall 项目致力于打造一个完整的电商系统，采用现阶段流行技术来实现，采用前后端分离继续编写。
 
-### 项目API接口文档
-
-- 文档地址：[https://easydoc.xyz/s/78237135/ZUqEdvA4/hKJTcbfd]()
 
 ### 项目介绍
 
@@ -110,7 +109,7 @@ gulimall
 |     工具      | 版本号 |                             下载                             |
 | :-----------: | :----: | :----------------------------------------------------------: |
 |      JDK      |  1.8   | https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html |
-|     Mysql     |  5.7   |                    https://www.mysql.com                     |
+|     Mysql     |  5.8   |                    https://www.mysql.com                     |
 |     Redis     | Redis  |                  https://redis.io/download                   |
 | Elasticsearch | 7.6.2  |               https://www.elastic.co/downloads               |
 |    Kibana     | 7.6.2  |               https://www.elastic.co/cn/kibana               |
@@ -126,14 +125,14 @@ gulimall
 - 修改本机的host文件，映射域名端口
 
 ```
-192.168.77.130	gulimall.com
-192.168.77.130	search.gulimall.com
-192.168.77.130  item.gulimall.com
-192.168.77.130  auth.gulimall.com
-192.168.77.130  cart.gulimall.com
-192.168.77.130  order.gulimall.com
-192.168.77.130  member.gulimall.com
-192.168.77.130  seckill.gulimall.com
+192.168.1.120	gulimall.com
+192.168.1.120	search.gulimall.com
+192.168.1.120  item.gulimall.com
+192.168.1.120  auth.gulimall.com
+192.168.1.120  cart.gulimall.com
+192.168.1.120  order.gulimall.com
+192.168.1.120  member.gulimall.com
+192.168.1.120  seckill.gulimall.com
 以上端口换成自己Linux的ip地址
 ```
 
@@ -142,7 +141,7 @@ gulimall
 ```
 1、在nginx.conf中添加负载均衡的配置    
 upstream gulimall {
-        server 192.168.43.182:88;
+        server 192.168.1.120:88;
     }
 2、在gulimall.conf中添加如下配置
 server {
