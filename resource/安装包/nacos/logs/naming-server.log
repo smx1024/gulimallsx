@@ -21,7 +21,7 @@ java.lang.IllegalArgumentException: server: 192.168.77.1:8848 is not in serverli
 	at java.lang.Thread.run(Thread.java:745)
 2020-08-07 08:14:08,230 INFO creating empty service public:DEFAULT_GROUP@@service-oss
 
-2020-08-07 08:14:08,262 INFO [NEW-SERVICE] {"appName":"","checksum":"50d2afb65deec1facd9a63f3778f08","clusterMap":{},"enabled":true,"groupName":"DEFAULT_GROUP","ipDeleteTimeout":30000,"lastModifiedMillis":1596759248237,"metadata":{},"name":"DEFAULT_GROUP@@service-oss","namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
+2020-08-07 08:14:08,262 INFO [NEW-SERVICE] {"appName":"","checksum":"50d2afb65deec1facd9a63f3778f08","clusterMap":{},"enabled":true,"groupName":"DEFAULT_GROUP","ipDeleteTimeout":30000,"lastModifiedMillis":1596759248237,"metadata":{},"name":"DEFAULT_GROUP@@service-oss","#namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
 
 2020-08-07 08:14:08,291 WARN cluster: DEFAULT not found, ip: {"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"","instanceIdGenerator":"","ip":"192.168.77.1","ipDeleteTimeout":30000,"lastBeat":1596759248230,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8020,"serviceName":"DEFAULT_GROUP@@service-oss","tenant":"","weight":1.0}, will create new cluster with default configuration.
 
@@ -29,7 +29,7 @@ java.lang.IllegalArgumentException: server: 192.168.77.1:8848 is not in serverli
 
 2020-08-07 08:14:08,361 INFO creating empty service public:DEFAULT_GROUP@@service-edu
 
-2020-08-07 08:14:08,362 INFO [NEW-SERVICE] {"appName":"","checksum":"1612a2748dcb9418b46a9285cfc27f28","clusterMap":{},"enabled":true,"groupName":"DEFAULT_GROUP","ipDeleteTimeout":30000,"lastModifiedMillis":1596759248361,"metadata":{},"name":"DEFAULT_GROUP@@service-edu","namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
+2020-08-07 08:14:08,362 INFO [NEW-SERVICE] {"appName":"","checksum":"1612a2748dcb9418b46a9285cfc27f28","clusterMap":{},"enabled":true,"groupName":"DEFAULT_GROUP","ipDeleteTimeout":30000,"lastModifiedMillis":1596759248361,"metadata":{},"name":"DEFAULT_GROUP@@service-edu","#namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
 
 2020-08-07 08:14:08,362 WARN cluster: DEFAULT not found, ip: {"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"","instanceIdGenerator":"","ip":"192.168.77.1","ipDeleteTimeout":30000,"lastBeat":1596759248361,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8010,"serviceName":"DEFAULT_GROUP@@service-edu","tenant":"","weight":1.0}, will create new cluster with default configuration.
 
@@ -37,7 +37,7 @@ java.lang.IllegalArgumentException: server: 192.168.77.1:8848 is not in serverli
 
 2020-08-07 08:14:08,417 INFO creating empty service public:DEFAULT_GROUP@@service-cms
 
-2020-08-07 08:14:08,417 INFO [NEW-SERVICE] {"appName":"","checksum":"5278f7243ded199495e3f384dafd06ff","clusterMap":{},"enabled":true,"groupName":"DEFAULT_GROUP","ipDeleteTimeout":30000,"lastModifiedMillis":1596759248417,"metadata":{},"name":"DEFAULT_GROUP@@service-cms","namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
+2020-08-07 08:14:08,417 INFO [NEW-SERVICE] {"appName":"","checksum":"5278f7243ded199495e3f384dafd06ff","clusterMap":{},"enabled":true,"groupName":"DEFAULT_GROUP","ipDeleteTimeout":30000,"lastModifiedMillis":1596759248417,"metadata":{},"name":"DEFAULT_GROUP@@service-cms","#namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
 
 2020-08-07 08:14:08,418 WARN cluster: DEFAULT not found, ip: {"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"","instanceIdGenerator":"","ip":"192.168.77.1","ipDeleteTimeout":30000,"lastBeat":1596759248417,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8040,"serviceName":"DEFAULT_GROUP@@service-cms","tenant":"","weight":1.0}, will create new cluster with default configuration.
 
@@ -45,7 +45,7 @@ java.lang.IllegalArgumentException: server: 192.168.77.1:8848 is not in serverli
 
 2020-08-07 08:14:09,536 INFO creating empty service public:DEFAULT_GROUP@@service-vod
 
-2020-08-07 08:14:09,537 INFO [NEW-SERVICE] {"appName":"","checksum":"8a2bb57d475165ea648a57fb6eef7e93","clusterMap":{},"enabled":true,"groupName":"DEFAULT_GROUP","ipDeleteTimeout":30000,"lastModifiedMillis":1596759249536,"metadata":{},"name":"DEFAULT_GROUP@@service-vod","namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
+2020-08-07 08:14:09,537 INFO [NEW-SERVICE] {"appName":"","checksum":"8a2bb57d475165ea648a57fb6eef7e93","clusterMap":{},"enabled":true,"groupName":"DEFAULT_GROUP","ipDeleteTimeout":30000,"lastModifiedMillis":1596759249536,"metadata":{},"name":"DEFAULT_GROUP@@service-vod","#namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
 
 2020-08-07 08:14:09,537 WARN cluster: DEFAULT not found, ip: {"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"","instanceIdGenerator":"","ip":"192.168.77.1","ipDeleteTimeout":30000,"lastBeat":1596759249536,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8030,"serviceName":"DEFAULT_GROUP@@service-vod","tenant":"","weight":1.0}, will create new cluster with default configuration.
 

@@ -1,7 +1,7 @@
-package com.xunqi.gulimall.cart;
+package com.sx.gulimall.cart;
 
-import com.xunqi.gulimall.cart.service.CartService;
-import com.xunqi.gulimall.cart.vo.CartItemVo;
+import com.sx.gulimall.cart.service.CartService;
+import com.sx.gulimall.cart.vo.CartItemVo;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package com.xunqi.gulimall.seckill;
+package com.sx.gulimall.seckill;
 
 import org.junit.Test;
 

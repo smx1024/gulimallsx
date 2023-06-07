@@ -6,8 +6,8 @@ spring:
     name: gulimall-order
   datasource:
     username: root
-    password: root
-    url: jdbc:mysql://192.168.77.130:3306/gulimall_oms?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    password: shangxu929
+    url: jdbc:mysql://192.168.136.128:3306/gulimall_oms?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   cloud:
@@ -21,8 +21,9 @@ spring:
         dashboard: localhost:8080
 
   redis:
-    host: 192.168.77.130
+    host: 192.168.136.128
     port: 6379
+    password: shangxu929
 
 #开启feign对sentinel的支持
 feign:

@@ -8,4 +8,4 @@ spring:
       config:
         server-addr: localhost:8848
 #        file-extension: yml
-        namespace: ea65d118-135f-4928-bbc6-c8ec85b3fd78
+        #namespace: ea65d118-135f-4928-bbc6-c8ec85b3fd78

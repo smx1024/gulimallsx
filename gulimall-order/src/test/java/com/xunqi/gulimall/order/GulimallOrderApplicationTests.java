@@ -1,6 +1,6 @@
-package com.xunqi.gulimall.order;
+package com.sx.gulimall.order;
 
-import com.xunqi.gulimall.order.entity.OrderReturnReasonEntity;
+import com.sx.gulimall.order.entity.OrderReturnReasonEntity;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;

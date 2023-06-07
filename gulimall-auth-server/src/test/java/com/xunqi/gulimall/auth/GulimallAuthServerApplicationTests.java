@@ -1,4 +1,4 @@
-package com.xunqi.gulimall.auth;
+package com.sx.gulimall.auth;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

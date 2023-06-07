@@ -1,13 +1,13 @@
-package com.xunqi.gulimall.product;
+package com.sx.gulimall.product;
 
 import com.aliyun.oss.OSS;
 import com.aliyun.oss.OSSClientBuilder;
-import com.xunqi.gulimall.product.dao.AttrGroupDao;
-import com.xunqi.gulimall.product.dao.SkuSaleAttrValueDao;
-import com.xunqi.gulimall.product.service.BrandService;
-import com.xunqi.gulimall.product.service.CategoryService;
-import com.xunqi.gulimall.product.vo.SkuItemSaleAttrVo;
-import com.xunqi.gulimall.product.vo.SpuItemAttrGroupVo;
+import com.sx.gulimall.product.dao.AttrGroupDao;
+import com.sx.gulimall.product.dao.SkuSaleAttrValueDao;
+import com.sx.gulimall.product.service.BrandService;
+import com.sx.gulimall.product.service.CategoryService;
+import com.sx.gulimall.product.vo.SkuItemSaleAttrVo;
+import com.sx.gulimall.product.vo.SpuItemAttrGroupVo;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;

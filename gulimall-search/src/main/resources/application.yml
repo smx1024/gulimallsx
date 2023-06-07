@@ -15,8 +15,9 @@ spring:
         dashboard: localhost:8080
 
   redis:
-    host: 192.168.77.130
+    host: 192.168.136.128
     port: 6379
+    password: shangxu929
 
 #开启feign对sentinel的支持
 feign:
@@ -31,7 +32,7 @@ feign:
 
 logging:
   level:
-    com.xunqi.gulimall.search: debug
+    com.sx.gulimall.search: debug
     root: warn
   pattern:
     console: "%d{yyyy-MM-dd} [%thread] - %msg%n"

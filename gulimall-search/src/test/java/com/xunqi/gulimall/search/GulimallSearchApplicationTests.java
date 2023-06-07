@@ -1,7 +1,7 @@
-package com.xunqi.gulimall.search;
+package com.sx.gulimall.search;
 
 import com.alibaba.fastjson.JSON;
-import com.xunqi.gulimall.search.config.GulimallElasticSearchConfig;
+import com.sx.gulimall.search.config.GulimallElasticSearchConfig;
 import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;

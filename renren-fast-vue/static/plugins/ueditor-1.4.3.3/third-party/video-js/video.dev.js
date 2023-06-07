@@ -21,7 +21,7 @@ document.createElement('track');
  * @param  {Object=} options        Optional options object for config/settings
  * @param  {Function=} ready        Optional ready callback
  * @return {vjs.Player}             A player instance
- * @namespace
+ * @#namespace
  */
 var vjs = function(id, options, ready){
   var tag; // Element of ID
@@ -611,7 +611,7 @@ vjs.createEl = function(tagName, properties){
 
       // The check for dash checks for the aria-* attributes, like aria-label, aria-valuemin.
       // The additional check for "role" is because the default method for adding attributes does not
-      // add the attribute "role". My guess is because it's not a valid attribute in some namespaces, although
+      // add the attribute "role". My guess is because it's not a valid attribute in some #namespaces, although
       // browsers handle the attribute just fine. The W3C allows for aria-* attributes to be used in pre-HTML5 docs.
       // http://www.w3.org/TR/wai-aria-primer/#ariahtml. Using setAttribute gets around this problem.
 
@@ -6970,7 +6970,7 @@ vjs.obj.merge(vjs.ControlBar.prototype.options_['children'], {
  * https://github.com/douglascrockford/JSON-js/blob/master/json2.js
  * Only using for parse method when parsing data-setup attribute JSON.
  * @suppress {undefinedVars}
- * @namespace
+ * @#namespace
  * @private
  */
 vjs.JSON;

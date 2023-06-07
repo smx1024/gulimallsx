@@ -1,4 +1,4 @@
-package com.xunqi.gulimall.member;
+package com.sx.gulimall.member;
 
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.codec.digest.Md5Crypt;

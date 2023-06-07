@@ -7,7 +7,7 @@
         <version>2.1.8.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.xunqi</groupId>
+    <groupId>com.sx</groupId>
     <artifactId>gulimall-cart</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>gulimall-cart</name>
@@ -20,7 +20,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.xunqi.gulimall</groupId>
+            <groupId>com.sx.gulimall</groupId>
             <artifactId>gulimall-common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <exclusions>

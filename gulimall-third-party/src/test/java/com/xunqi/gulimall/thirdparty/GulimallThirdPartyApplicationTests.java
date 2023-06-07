@@ -1,9 +1,9 @@
-package com.xunqi.gulimall.thirdparty;
+package com.sx.gulimall.thirdparty;
 
 import com.aliyun.oss.OSS;
 import com.aliyun.oss.OSSClientBuilder;
-import com.xunqi.common.utils.HttpUtils;
-import com.xunqi.gulimall.thirdparty.component.SmsComponent;
+import com.sx.common.utils.HttpUtils;
+import com.sx.gulimall.thirdparty.component.SmsComponent;
 import org.apache.http.HttpResponse;
 import org.apache.http.util.EntityUtils;
 import org.junit.Test;

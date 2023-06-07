@@ -1,4 +1,4 @@
-package com.xunqi.gulimall.gateway;
+package com.sx.gulimall.gateway;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

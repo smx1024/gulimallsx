@@ -1,4 +1,4 @@
-package com.xunqi.gulimall.ssoclient.controller;
+package com.sx.gulimall.ssoclient.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
@@ -16,7 +16,7 @@ import java.util.List;
 /**
  * @Description:
  * @Created: with IntelliJ IDEA.
- * @author: 夏沫止水
+ * @author: sx
  * @createTime: 2020-06-29 19:44
  **/
 
